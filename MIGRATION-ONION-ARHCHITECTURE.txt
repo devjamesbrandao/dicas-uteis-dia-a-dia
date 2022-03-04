@@ -1,0 +1,2 @@
+/**MIGRATION EM PASTAS (CAMADAS) DIFERENTES**/
+-> dotnet ef migrations add Migracao --project DbContext --startup-project .csproj da api
