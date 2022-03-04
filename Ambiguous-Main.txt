@@ -1,0 +1,6 @@
+/*Como especificar método Main na hora de compilar projeto em C#?*/
+-- Situação problema: tenho duas classes com um método Main(). Nesse caso, se você tentar compilar o projeto com o comando "dotnet run",
+sem especificar qual método Main() o compilador deve chamar, este irá lançar um erro de compilação chamado "error CS0017".
+
+-- Como corrigir o problema?
+-> dotnet run namespace.csproj -p:StartupObject=namespace.nomeDaClasseQueVaiSerCompilada
