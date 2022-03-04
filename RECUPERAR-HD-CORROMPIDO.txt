@@ -1,0 +1,8 @@
+/*TENTAR RECUPERAR DADOS CORROMPIDOS NO HD ou SSD*/
+1º:
+  -> chkdsk /f/r
+  -- chkdsk /r: localiza setores defeituosos no disco rígido e tenta repará-los.
+  -- chkdsk /f : corrige os erros do disco.
+
+2º:
+  -> sfc /scannow
