@@ -1,0 +1,7 @@
+/*Sites bacanas*/
+-- z-library
+-- Library Genesis
+-- Cite this for me
+-- The Pirate Bay
+-- Latex
+-- Sci-hub
