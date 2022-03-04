@@ -1,0 +1,5 @@
+/**Finalizar serviço no windows**/
+-> net stop <nome_do_servico>
+
+/**Finalizar processo no windows**/
+-> taskkill -im <nome_do_processo.exe> -f
