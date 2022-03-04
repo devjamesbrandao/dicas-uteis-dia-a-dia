@@ -1,0 +1,2 @@
+/**COMO REALIZAR SCAFFOLD EM BANCO DE DADOS**/
+-> SCAFFOLD: dotnet ef dbcontext scaffold "CONNECTION STRING" Microsoft.EntityFrameworkCore.SqlServer --table Tabela --use-database-names
