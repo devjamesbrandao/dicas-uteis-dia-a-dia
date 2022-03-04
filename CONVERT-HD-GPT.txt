@@ -1,0 +1,8 @@
+/*SOLUÇÃO: O WINDOWS NÃO PODE SER INSTALADO NESTE DISCO / PARTIÇÃO 1 DO DISCO 0*/
+1° - Shift + F10
+2° - diskpart
+3° - list disk
+4° - select disk 0
+5° - clean
+6° - convert gpt
+7° - exit
